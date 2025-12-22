@@ -8,7 +8,7 @@
 .card {
   padding: 24px 16px;
   color: var(--text-second-color);
-  width: 87%;
+  width: 312px;
   height: 288px;
   border-radius: 16px;
   background-color: black;
@@ -39,4 +39,19 @@
   font-size: 2rem;
   display: inline-block;
   margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card header h3 {
+    font-size: 3rem;
+  }
+
+  .card header span {
+    font-size: 2.5rem;
+  }
 }
