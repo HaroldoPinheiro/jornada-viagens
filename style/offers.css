@@ -8,7 +8,7 @@
 .card {
   padding: 24px 16px;
   color: var(--text-second-color);
-  width: 312px;
+  width: 87%;
   height: 288px;
   border-radius: 16px;
   background-color: black;
@@ -21,6 +21,7 @@
   display: block;
   padding: 0;
   position: static;
+  margin-bottom: 24px;
 }
 
 .card header p {
