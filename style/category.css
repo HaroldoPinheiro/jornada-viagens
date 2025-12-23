@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 24px;
 }
 
@@ -13,18 +14,17 @@
   border-radius: 8px;
   padding: 16px 24px;
   box-sizing: border-box;
+}
+
+.card-category a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 24px;
-  text-align: center;
-}
-
-.card-category header {
-  background-color: transparent;
-  display: block;
-  padding: 0;
-  position: static;
+  text-decoration: none;
+  height: 100%;
+  color: var(--text-main-color);
 }
 
 .card-category img {
@@ -32,12 +32,10 @@
   height: 80px;
 }
 
-.card-category a {
+.card-category h3 {
   font-size: 1.75rem;
   font-weight: var(--title-weight);
   margin: 0;
-  text-decoration: none;
-  color: var(--text-main-color);
 }
 
 @media screen and (min-width: 768px) {
