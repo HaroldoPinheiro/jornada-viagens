@@ -32,8 +32,24 @@
   height: 80px;
 }
 
-.card-category h3 {
+.card-category a {
   font-size: 1.75rem;
   font-weight: var(--title-weight);
   margin: 0;
+  text-decoration: none;
+  color: var(--text-main-color);
+}
+
+@media screen and (min-width: 768px) {
+  .category-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card-category {
+    width: 281.25px;
+    height: 220px;
+  }
 }
