@@ -49,6 +49,13 @@
 
 @media screen and (min-width: 1024px) {
   .card-category {
+    width: 460px;
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card-category {
     width: 281.25px;
     height: 220px;
   }
