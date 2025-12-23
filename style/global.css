@@ -85,4 +85,7 @@ section {
   .button:hover {
     background-color: var(--red-main-color);
   }
+  section {
+    padding-bottom: 104px;
+  }
 }
