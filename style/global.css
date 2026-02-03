@@ -75,6 +75,17 @@ section {
   padding-bottom: 88px;
 }
 
+.content-title {
+  font-size: 1.75rem;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 1.25rem;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 2em;
