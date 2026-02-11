@@ -44,7 +44,7 @@ body {
 }
 
 .section-title h2 {
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
@@ -73,6 +73,17 @@ body {
 
 section {
   padding-bottom: 88px;
+}
+
+.content-title {
+  font-size: 1.75rem;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 1.25rem;
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
 
 @media screen and (min-width: 768px) {
