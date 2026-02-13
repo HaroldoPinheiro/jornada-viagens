@@ -5,7 +5,7 @@
 }
 
 .text-content {
-  padding: 0px 24px 24px;
+  padding: 0px 0px 24px;
 }
 
 .content {
@@ -71,5 +71,15 @@
 
   .content-container {
     display: flex;
+    gap: 23px;
+  }
+
+  .text-content {
+    padding: 0;
+    width: 384px;
+  }
+
+  .content-title {
+    margin: 0 0 24px;
   }
 }
