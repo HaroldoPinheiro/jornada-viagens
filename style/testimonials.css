@@ -54,7 +54,19 @@
   line-height: 32px;
 }
 
+@media screen and (min-width: 768px) {
+  .testimonials {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
+  .testimonials {
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+
   .testimonial-container {
     flex-direction: row;
     gap: 24px;
