@@ -47,7 +47,7 @@
   color: var(--red-second-color);
 }
 
-.profile-content h4 {
+.profile-content h3 {
   margin: 0;
   font-size: 1.25rem;
   font-weight: var(--title-weight);
