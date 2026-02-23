@@ -22,6 +22,7 @@
 .footer p {
   color: var(--background-second-color);
   font-size: 1rem;
+  font-weight: var(--text-weight);
   line-height: 28px;
   text-align: center;
 }
@@ -54,6 +55,11 @@
     padding: 32px 60px;
     justify-content: space-between;
     gap: 0px;
+  }
+
+  .footer p {
+    font-size: 1.25rem;
+    line-height: 32px;
   }
 }
 
