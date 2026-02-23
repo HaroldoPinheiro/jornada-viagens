@@ -1,0 +1,89 @@
+.footer {
+  padding: 32px 24px;
+  background-color: var(--background-third-color);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer header {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer header div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer p {
+  color: var(--background-second-color);
+  font-size: 1rem;
+  font-weight: var(--text-weight);
+  line-height: 28px;
+  text-align: center;
+}
+
+.footer__logo {
+  width: 162px;
+}
+
+.footer footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 165px;
+  margin: 0 auto;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.redes-socias-img {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 32px 60px;
+    justify-content: space-between;
+    gap: 0px;
+  }
+
+  .footer p {
+    font-size: 1.25rem;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 32px 60px;
+    flex-direction: row;
+  }
+
+  .footer header {
+    align-items: flex-start;
+  }
+
+  .footer p {
+    text-align: left;
+  }
+
+  .footer footer {
+    margin: auto 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 52px 120px;
+  }
+}
