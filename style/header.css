@@ -91,6 +91,7 @@ nav {
   }
   .navigation-menu a:hover {
     color: var(--red-main-color);
+    font-weight: var(--title-weight);
   }
   .list-links li:hover {
     background-color: var(--background-third-color);

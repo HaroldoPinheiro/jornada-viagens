@@ -14,6 +14,34 @@
   line-height: 1.5;
 }
 
+.pacotes-viagem {
+  padding: 65px 24px;
+  height: 460px;
+  width: 100%;
+  background: url(../assets/hero-pacotes-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: 60%;
+  box-sizing: border-box;
+}
+
+.pacotes-viagem .section-title hr {
+  margin: 16px 0px 32px;
+}
+
+.pacotes-viagem h2 {
+  font-size: 3rem;
+  font-weight: var(--title-weight);
+  color: var(--text-second-color);
+  text-align: left;
+  padding: 0;
+}
+
+.pacotes-viagem p {
+  font-size: 1.25rem;
+  line-height: 32px;
+  color: var(--text-second-color);
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
