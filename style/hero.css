@@ -18,7 +18,7 @@
   padding: 65px 24px;
   height: 460px;
   width: 100%;
-  background: url(../assets/hero-pacotes-mobile.jpg) no-repeat;
+  background: url(../assets/hero-pacotes.jpg) no-repeat;
   background-size: cover;
   background-position: 60%;
   box-sizing: border-box;
@@ -37,6 +37,7 @@
 }
 
 .pacotes-viagem p {
+  font-weight: var(--text-weight);
   font-size: 1.25rem;
   line-height: 32px;
   color: var(--text-second-color);
@@ -52,6 +53,24 @@
     padding: 88px 60px;
     font-size: 2rem;
   }
+
+  .pacotes-viagem {
+    padding: 209.26px 69px 107.74px 120px;
+    height: 620px;
+    background: url(../assets/hero-pacotes.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  .pacotes-viagem h2 {
+    font-size: 3rem;
+    padding: 0;
+  }
+
+  .pacotes-viagem p {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -61,5 +80,23 @@
   }
   .hero h2 {
     padding: 104px 120px;
+  }
+
+  .pacotes-viagem {
+    padding: 158.5px 120px;
+    background: url(../assets/hero-pacotes.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+
+  .pacotes-viagem h2 {
+    font-size: 3rem;
+    padding: 0;
+  }
+
+  .pacotes-viagem p {
+    font-size: 2rem;
+    line-height: 1.5;
+    width: 579px;
   }
 }
