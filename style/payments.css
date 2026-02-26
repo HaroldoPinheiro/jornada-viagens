@@ -15,17 +15,17 @@
   height: 460px;
   width: 100%;
   grid-template-areas:
-    "bag passport"
-    "people people";
+    "img1 img2"
+    "img3 img3";
   gap: 24px;
 }
 .bag {
-  grid-area: "bag";
+  grid-area: "img1";
   background: url(../assets/bag-mobile.png);
   height: 254px;
 }
 .passport {
-  grid-area: "passport";
+  grid-area: "img2";
   background: url(../assets/passport-mobile.png);
   height: 254px;
 }
@@ -35,10 +35,44 @@
   height: 182px;
 }
 
+.img1 {
+  grid-area: "img1";
+  background: url(../assets/img1-pacotes-mobile.png);
+  height: 254px;
+}
+.img2 {
+  grid-area: "img2";
+  background: url(../assets/img2-pacotes-mobile.png);
+  height: 254px;
+}
+.img3 {
+  grid-column: 1/3;
+  background: url(../assets/img3-pacotes-mobile.png);
+  height: 182px;
+}
+
 .image {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.pacotes-preco {
+  margin: 32px 0px 24px;
+  font-weight: var(--title-weight);
+  font-size: 2.5rem;
+}
+
+.pacotes-parcelas {
+  margin: 0px 0px 24px;
+  font-weight: var(--title-weight);
+  font-size: 1.75rem;
+}
+
+.payments .button {
+  width: 100%;
+  text-align: center;
+  margin-top: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -46,6 +80,7 @@
     padding-right: 60px;
     padding-left: 60px;
   }
+
   .bag {
     background: url(../assets/bag-tablet.png);
   }
@@ -56,10 +91,24 @@
     background: url(../assets/people-tablet.png);
   }
 
+  .img1 {
+    background: url(../assets/img1-pacotes-tablet.png);
+  }
+  .img2 {
+    background: url(../assets/img2-pacotes-tablet.png);
+  }
+  .img3 {
+    background: url(../assets/img3-pacotes-tablet.png);
+  }
+
   .image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .payments .button {
+    display: none;
   }
 }
 
@@ -81,5 +130,21 @@
 
   .content-title {
     margin: 0 0 24px;
+  }
+
+  .img1 {
+    background: url(../assets/img1-pacotes-desktop.png);
+  }
+  .img2 {
+    background: url(../assets/img2-pacotes-desktop.png);
+  }
+  .img3 {
+    background: url(../assets/img3-pacotes-desktop.png);
+  }
+
+  .image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
