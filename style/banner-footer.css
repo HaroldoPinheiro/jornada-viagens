@@ -9,9 +9,20 @@
   background-size: cover;
 }
 
+.banner-img-pacotes {
+  height: 400px;
+  width: 100%;
+  background: url(../assets/footer-img-pacotes-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .banner-img {
     background: url(../assets/footer-img-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .banner-img-pacotes {
+    background: url(../assets/footer-img-pacotes-tablet.png) no-repeat;
     background-size: cover;
   }
 }
@@ -20,6 +31,11 @@
   .banner-img {
     height: 600px;
     background: url(../assets/footer-img-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .banner-img-pacotes {
+    height: 600px;
+    background: url(../assets/footer-img-pacotes-desktop.png) no-repeat;
     background-size: cover;
   }
 }
